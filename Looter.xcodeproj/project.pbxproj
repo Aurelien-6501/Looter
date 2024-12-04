@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0D1D86FC2CB5753B0025F0F5 /* Answers.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D86FA2CB575320025F0F5 /* Answers.markdown */; };
+		0D63B5092D00A1DA000EB64A /* Swift-Presentation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0D63B5082D00A1DA000EB64A /* Swift-Presentation.pdf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		0D1D86FA2CB575320025F0F5 /* Answers.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Answers.markdown; sourceTree = "<group>"; };
+		0D63B5082D00A1DA000EB64A /* Swift-Presentation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Swift-Presentation.pdf"; sourceTree = "<group>"; };
 		0DE0D7742CB571290053B107 /* Looter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Looter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -34,6 +41,8 @@
 			children = (
 				0DE0D7762CB571290053B107 /* Looter */,
 				0DE0D7752CB571290053B107 /* Products */,
+				0D1D86FA2CB575320025F0F5 /* Answers.markdown */,
+				0D63B5082D00A1DA000EB64A /* Swift-Presentation.pdf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D63B5092D00A1DA000EB64A /* Swift-Presentation.pdf in Resources */,
+				0D1D86FC2CB5753B0025F0F5 /* Answers.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

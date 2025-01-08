@@ -54,11 +54,10 @@ struct LootDetailView: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(item.rarity.color)
-                .scaleEffect(1.2)
-                .opacity(0.8)
+                .scaleEffect(isAppeared ? 1.1 : 1.0)
+                .opacity(isAppeared ? 1.0 : 0.8)
                 .animation(
-                    Animation.easeInOut(duration: 1.2)
-                        .repeatForever(autoreverses: true),
+                    Animation.easeInOut(duration: 4),
                     value: isAppeared
                 )
                 .onAppear {
